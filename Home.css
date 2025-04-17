@@ -1,0 +1,25 @@
+.hero-section {
+  background: linear-gradient(to right, #ff9966, #ff5e62);
+  padding: 100px 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-top: 15px;
+}
+
+.gallery img {
+  transition: transform 0.3s ease;
+  object-fit: cover;
+  height: 250px;
+  width: 100%;
+}
+
+.gallery img:hover {
+  transform: scale(1.03);
+}
